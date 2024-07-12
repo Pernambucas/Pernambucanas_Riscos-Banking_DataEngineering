@@ -1,16 +1,15 @@
 # Apresentação de Estágio na Squad de Ciência de Dados - Pernambucanas
 
 ## 1. Introdução
-- **Nome:** [Seu Nome]
-- **Posição:** Estagiário de Ciência de Dados
-- **Equipe:** Squad de Ciência de Dados da Pernambucanas
+- **Nome:** Thiago Tavares, Sergio Ricardo e Vincenzo
+- **Equipe:** Squad Riscos e Banking (TRIBO)
 
 ## 2. Papel da Squad de Ciência de Dados
-- Objetivo: Utilizar dados para obter insights valiosos e apoiar a tomada de decisões estratégicas.
+- Objetivo: Utilizar dados para obter insights valiosos e apoiar a tomada de decisões estratégicas do time de Negócios.
 - Principais responsabilidades:
   - Análise de dados
   - Tratamento de dados
-  - Criação de modelos preditivos
+  - Criação de Dashboards com dados tratados
 
 ## 3. Fluxo de Trabalho
 - **Engenheiro de Dados:**
