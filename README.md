@@ -15,8 +15,8 @@ Migração da solução de processamento de dados de Pentaho para AirFlow e Spar
 ## Fluxo de Trabalho
 
 ### Atual
-
-sequenceDiagram
+```mermaid
+  sequenceDiagram
     participant Channel as ✉️ Canais de comunicação
     participant Programmer as 👨‍💻 Programador
     participant Citrix as 💻 Ambiente Citrix
@@ -37,10 +37,12 @@ sequenceDiagram
     Programmer->>Zeppelin: Exportar dados tratados para CSV
     Zeppelin->>CSVViewer: Abrir CSV exportado
     CSVViewer->>Programmer: Visualizar dados
+```
+
 
 ### Em implementação
-
-sequenceDiagram
+```mermaid 
+    sequenceDiagram
     participant Channel as ✉️ Canais de comunicação
     participant Programmer as 👨‍💻 Programador
     participant Citrix as 💻 Ambiente Citrix
@@ -57,6 +59,8 @@ sequenceDiagram
     Bitbucket->>ComposerDev: Implementar código em desenvolvimento
     ComposerDev->>Programmer: Testar e validar pipeline
     ComposerDev->>ComposerProd: Implementar pipeline em produção
+```
+
 
 ## Ambiente de Trabalho e Ferramentas
 - **Ferramentas:**
